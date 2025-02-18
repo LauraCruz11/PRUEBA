@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9e8823;
+    color: rgb(24, 19, 7);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(29, 6, 28);
+    text-decoration: none;
+}
+
+.productos, .carrito {
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ce871e;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
